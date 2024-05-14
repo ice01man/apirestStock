@@ -16,11 +16,24 @@
     <br />
     <h1>Ingrese un producto</h1>
     <br />
-    <form action="/api/productos" method="post">
-        <input type="text" placeholder="Ingrese Nombre" name="nombre">
-        <input type="number" placeholder="Ingrese Precio" name="precio">
-        <input type="number" placeholder="Ingrese Stock" name="stock">
-        <button >Enviar</button>
-    </form>
-  </body>
+    <div class="container">
+
+      <form action="/api/productos" method="post">
+        <label class="label">  
+          <input class="input" type="text" placeholder=" " name="nombre">
+          <span class="label__name">Ingrese Nombre</span>
+        </label>
+        <label class="label">  
+        <input class="input" type="number" placeholder="" name="precio">
+        <span class="label__name">Ingrese Precio</span>
+        </label>
+        <label class="label">  
+        <input class="input" type="number" placeholder=" " name="stock">
+        <span class="label__name">Ingrese Stock</span>
+      </label>
+
+        <button class="btn-success" >Enviar</button>
+      </form>
+    </body>
+  </div>
 </html>
