@@ -1,5 +1,5 @@
 
-import ModelFactory from '../model/DAO/prodcutosFactory.js'
+import ModelFactory from '../model/DAO/productos/prodcutosFactory.js'
 import config from './config.js'
 import validar from './validaciones.js'
 

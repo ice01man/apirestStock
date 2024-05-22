@@ -1,5 +1,5 @@
 import { ObjectId } from "mongodb"
-import CnxMongoDb from "./DBmongo.js"
+import CnxMongoDb from "../DBmongo.js"
 
 class ModelMongoDB {
     

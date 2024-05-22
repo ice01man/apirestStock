@@ -6,9 +6,9 @@ dotenv.config()
 
 const PORT = process.env.PORT || 8080
 
-const MODO_PRESISTENCIA = process.env.MODO_PRESISTENCIA || 'MONGODB'
+const MODO_PRESISTENCIA = process.env.MODO_PRESISTENCIA || 'MEM'
 const STRCNX = process.env.STRCNX || 'mongodb://127.0.0.1'
-const BASE = process.env.BASE || 'mongod' 
+const BASE = process.env.BASE || 'ecommerce' 
 
 export default {
     MODO_PRESISTENCIA,

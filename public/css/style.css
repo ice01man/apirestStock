@@ -5,9 +5,13 @@ h1 {
 span {
     color: green;
 }
-.container{
+.container form{
     width: 50vw;
+    display: grid;
+    align-items: center;
+    text-align: center;
 }
+
 .label {
     width: max-content;
     margin: 9px auto;
@@ -39,12 +43,12 @@ span {
     transform: translateY(-50%) scale(.7);
     background-color: white;
 }
-.btn-success{
+button{
     width: 8rem;
     height: 2rem;
     background-color: rgb(3, 187, 3);
     border: 1px solid white;
     border-radius: 10px;
-    display: flexbox;
-    align-self: center;
+    margin-left: 10vw;
+  
 }
